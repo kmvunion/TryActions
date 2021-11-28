@@ -18,11 +18,12 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 6.0.x
-    - name: Print Folders
-      run: ls -la 
     
     - name: Restore dependencies
       run: dotnet restore "TryActions\TryActions.sln"
     
     - name: Build
       run: dotnet build "TryActions\TryActions.sln"
+
+    - name: Test
+      run: dotnet test "TryActions\TryActions.sln" --no-build --verbosity normal  
