@@ -25,4 +25,4 @@ jobs:
 #      run: dotnet restore
     
     - name: Build
-      run: dotnet build /TryActions/TryActions.sln
+      run: dotnet build TryActions.sln
