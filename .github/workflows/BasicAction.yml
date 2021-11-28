@@ -18,6 +18,8 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 6.0.x
+    - name: Print Folders
+      run: ls -la 
     
     - name: Restore dependencies
       run: dotnet restore
