@@ -25,6 +25,7 @@ namespace TryActionTests
 
 
         [Test]
+        [Ignore("Example of the fail test")]
         public void Fail_Test()
         {
             Assert.Fail();
