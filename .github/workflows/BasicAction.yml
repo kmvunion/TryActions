@@ -21,8 +21,8 @@ jobs:
     - name: Print Folders
       run: ls -la 
     
-    - name: Restore dependencies
-      run: dotnet restore
+#    - name: Restore dependencies
+#      run: dotnet restore
     
 #    - name: Build
 #      run: dotnet build /TryActions/TryActions.sln
