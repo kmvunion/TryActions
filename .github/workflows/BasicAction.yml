@@ -25,7 +25,7 @@ jobs:
       run: dotnet restore
     
     - name: Build
-      run: dotnet build TryActions.sln
+      run: dotnet build TryActions\TryActions.sln
     
     - name: Test
       run: dotnet test --no-build --verbosity normal
