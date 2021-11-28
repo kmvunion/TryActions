@@ -22,7 +22,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore "TryActions\TryActions.sln"
     
-    - name: Build
+    - name: Build solution
       run: dotnet build "TryActions\TryActions.sln"
 
     - name: Test
