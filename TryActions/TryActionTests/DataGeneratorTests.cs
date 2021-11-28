@@ -23,5 +23,11 @@ namespace TryActionTests
             Assert.IsFalse(Guid.Equals(Guid.Empty, resultGuid));
         }
 
+
+        [Test]
+        public void Fail_Test()
+        {
+            Assert.Fail();
+        }
     }
 }
